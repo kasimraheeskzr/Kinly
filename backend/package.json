@@ -1,0 +1,13 @@
+{
+  "name": "kinly-backend",
+  "version": "1.0.0",
+  "description": "Kinly Family Digital Wellness & Parental Control API Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["kinly", "family-wellness", "screentime", "parental-control"],
+  "author": "Kinly Engineering",
+  "license": "ISC"
+}

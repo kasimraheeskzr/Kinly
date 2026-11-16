@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Production build
+frontend/dist/
+
+# Environment and logs
+.env
+*.log
+npm-debug.log*
+
+# OS Files
+Thumbs.db
+.DS_Store
+
+# Large design source (71MB)
+design.svg

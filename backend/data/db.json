@@ -1,0 +1,599 @@
+{
+  "family": {
+    "familyName": "The Miller Family",
+    "admin": {
+      "name": "Sarah Miller",
+      "email": "sarah.miller@kinly.family",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "role": "Family Organizer"
+    },
+    "members": [
+      {
+        "id": "mem_1",
+        "name": "Leo Miller",
+        "age": 9,
+        "role": "Child",
+        "avatar": "https://images.unsplash.com/photo-1543332164-6e82f355badc?w=150&auto=format&fit=crop&q=80",
+        "color": "#39765C",
+        "dailyLimitMinutes": 120,
+        "usedMinutes": 105,
+        "bedtime": "20:30",
+        "devicesCount": 1
+      },
+      {
+        "id": "mem_2",
+        "name": "Maya Miller",
+        "age": 13,
+        "role": "Teen",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
+        "color": "#BD725E",
+        "dailyLimitMinutes": 180,
+        "usedMinutes": 130,
+        "bedtime": "21:30",
+        "devicesCount": 1
+      },
+      {
+        "id": "mem_3",
+        "name": "Lucas Miller",
+        "age": 16,
+        "role": "Teen",
+        "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80",
+        "color": "#AA8345",
+        "dailyLimitMinutes": 240,
+        "usedMinutes": 195,
+        "bedtime": "22:30",
+        "devicesCount": 1
+      },
+      {
+        "id": "mem_4",
+        "name": "David Miller",
+        "age": 42,
+        "role": "Parent",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+        "color": "#71874D",
+        "dailyLimitMinutes": 0,
+        "usedMinutes": 85,
+        "bedtime": "None",
+        "devicesCount": 1
+      }
+    ]
+  },
+  "globalControls": {
+    "pauseAllInternet": false,
+    "bedtimeLockdown": false,
+    "safeSearchEnforced": true,
+    "locationTracking": true,
+    "appStorePurchasesBlocked": true,
+    "bonusTimeActive": false,
+    "bonusTimeMinutes": 0
+  },
+  "devices": [
+    {
+      "id": "dev_1",
+      "name": "Leo's iPad",
+      "model": "Apple iPad 9th Gen",
+      "type": "tablet",
+      "ownerId": "mem_1",
+      "ownerName": "Leo",
+      "status": "online",
+      "battery": 78,
+      "screenTimeTodayMinutes": 105,
+      "limitMinutes": 255,
+      "internetPaused": false,
+      "bedtimeActive": false,
+      "currentApp": "Duolingo Kids",
+      "lastActive": "Just now",
+      "location": "Home - Living Room",
+      "ipAddress": "192.168.1.104",
+      "osVersion": "iPadOS 17.4",
+      "isPhoneConnected": true,
+      "pairCode": "KIN-4091"
+    },
+    {
+      "id": "dev_2",
+      "name": "Maya's iPhone",
+      "model": "Apple iPhone 14",
+      "type": "phone",
+      "ownerId": "mem_2",
+      "ownerName": "Maya",
+      "status": "online",
+      "battery": 64,
+      "screenTimeTodayMinutes": 130,
+      "limitMinutes": 180,
+      "internetPaused": false,
+      "bedtimeActive": false,
+      "currentApp": "Spotify",
+      "lastActive": "2m ago",
+      "location": "Lincoln Middle School",
+      "ipAddress": "192.168.1.112",
+      "osVersion": "iOS 17.5",
+      "isPhoneConnected": true,
+      "pairCode": "KIN-7842"
+    },
+    {
+      "id": "dev_3",
+      "name": "Lucas's MacBook",
+      "model": "Apple MacBook Air M2",
+      "type": "laptop",
+      "ownerId": "mem_3",
+      "ownerName": "Lucas",
+      "status": "idle",
+      "battery": 92,
+      "screenTimeTodayMinutes": 195,
+      "limitMinutes": 240,
+      "internetPaused": false,
+      "bedtimeActive": false,
+      "currentApp": "Visual Studio Code",
+      "lastActive": "18m ago",
+      "location": "Home - Study Room",
+      "ipAddress": "192.168.1.118",
+      "osVersion": "macOS Sonoma",
+      "isPhoneConnected": false,
+      "pairCode": "KIN-9124"
+    },
+    {
+      "id": "dev_4",
+      "name": "Family Living Room Tablet",
+      "model": "Samsung Galaxy Tab S8",
+      "type": "tablet",
+      "ownerId": "mem_4",
+      "ownerName": "Shared",
+      "status": "online",
+      "battery": 100,
+      "screenTimeTodayMinutes": 45,
+      "limitMinutes": 120,
+      "internetPaused": false,
+      "bedtimeActive": false,
+      "currentApp": "Disney+",
+      "lastActive": "5m ago",
+      "location": "Home - Living Room",
+      "ipAddress": "192.168.1.125",
+      "osVersion": "Android 14",
+      "isPhoneConnected": true,
+      "pairCode": "KIN-2309"
+    }
+  ],
+  "screentime": {
+    "todayTotalMinutes": 222,
+    "yesterdayTotalMinutes": 292,
+    "changePercent": -24,
+    "weekly": [
+      {
+        "day": "Mon",
+        "hours": 3.2,
+        "minutes": 192,
+        "isPeak": false
+      },
+      {
+        "day": "Tue",
+        "hours": 2.8,
+        "minutes": 168,
+        "isPeak": false
+      },
+      {
+        "day": "Wed",
+        "hours": 3.5,
+        "minutes": 210,
+        "isPeak": false
+      },
+      {
+        "day": "Thu",
+        "hours": 4.25,
+        "minutes": 255,
+        "isPeak": true,
+        "note": "Peak Usage: 4h 15m"
+      },
+      {
+        "day": "Fri",
+        "hours": 3.8,
+        "minutes": 228,
+        "isPeak": false
+      },
+      {
+        "day": "Sat",
+        "hours": 4.1,
+        "minutes": 246,
+        "isPeak": false
+      },
+      {
+        "day": "Sun",
+        "hours": 3.7,
+        "minutes": 222,
+        "isPeak": false
+      }
+    ],
+    "categories": [
+      {
+        "name": "Educational & Learning",
+        "minutes": 82,
+        "percentage": 37,
+        "color": "#39765C"
+      },
+      {
+        "name": "Entertainment & Video",
+        "minutes": 74,
+        "percentage": 33,
+        "color": "#C6D9C8"
+      },
+      {
+        "name": "Gaming",
+        "minutes": 44,
+        "percentage": 20,
+        "color": "#BD725E"
+      },
+      {
+        "name": "Social & Messaging",
+        "minutes": 22,
+        "percentage": 10,
+        "color": "#AA8345"
+      }
+    ]
+  },
+  "activities": [
+    {
+      "id": "act_1794796395880",
+      "type": "device_resumed",
+      "title": "Internet restored on Lucas's MacBook",
+      "device": "Lucas's MacBook",
+      "member": "Lucas",
+      "time": "Just now",
+      "severity": "success",
+      "iconBg": "#EDF3E8",
+      "iconColor": "#71874D"
+    },
+    {
+      "id": "act_1794796395199",
+      "type": "device_paused",
+      "title": "Internet paused on Lucas's MacBook",
+      "device": "Lucas's MacBook",
+      "member": "Lucas",
+      "time": "Just now",
+      "severity": "warning",
+      "iconBg": "#F9ECE7",
+      "iconColor": "#BD725E"
+    },
+    {
+      "id": "act_1794796391625",
+      "type": "bonus_time",
+      "title": "+30m bonus time granted to Leo's iPad",
+      "device": "Leo's iPad",
+      "member": "Leo",
+      "time": "Just now",
+      "severity": "info",
+      "iconBg": "#EDF4EE",
+      "iconColor": "#39765C"
+    },
+    {
+      "id": "act_1794796368710",
+      "type": "resume_all",
+      "title": "Internet resumed for all family devices",
+      "device": "All Devices",
+      "member": "Sarah Miller",
+      "time": "Just now",
+      "severity": "success",
+      "iconBg": "#EDF3E8",
+      "iconColor": "#71874D"
+    },
+    {
+      "id": "act_1794796367368",
+      "type": "pause_all",
+      "title": "Internet paused for all family devices",
+      "device": "All Devices",
+      "member": "Sarah Miller",
+      "time": "Just now",
+      "severity": "alert",
+      "iconBg": "#F9ECE7",
+      "iconColor": "#BD725E"
+    },
+    {
+      "id": "act_1794796322541",
+      "type": "resume_all",
+      "title": "Internet resumed for all family devices",
+      "device": "All Devices",
+      "member": "Sarah Miller",
+      "time": "Just now",
+      "severity": "success",
+      "iconBg": "#EDF3E8",
+      "iconColor": "#71874D"
+    },
+    {
+      "id": "act_1794796301437",
+      "type": "pause_all",
+      "title": "Internet paused for all family devices",
+      "device": "All Devices",
+      "member": "Sarah Miller",
+      "time": "Just now",
+      "severity": "alert",
+      "iconBg": "#F9ECE7",
+      "iconColor": "#BD725E"
+    },
+    {
+      "id": "act_1794796300618",
+      "type": "resume_all",
+      "title": "Internet resumed for all family devices",
+      "device": "All Devices",
+      "member": "Sarah Miller",
+      "time": "Just now",
+      "severity": "success",
+      "iconBg": "#EDF3E8",
+      "iconColor": "#71874D"
+    },
+    {
+      "id": "act_1794796299285",
+      "type": "pause_all",
+      "title": "Internet paused for all family devices",
+      "device": "All Devices",
+      "member": "Sarah Miller",
+      "time": "Just now",
+      "severity": "alert",
+      "iconBg": "#F9ECE7",
+      "iconColor": "#BD725E"
+    },
+    {
+      "id": "act_1794796298070",
+      "type": "bedtime",
+      "title": "Bedtime mode deactivated",
+      "device": "All Devices",
+      "member": "Sarah Miller",
+      "time": "Just now",
+      "severity": "info",
+      "iconBg": "#EDF4EE",
+      "iconColor": "#39765C"
+    },
+    {
+      "id": "act_1794796297163",
+      "type": "bedtime",
+      "title": "Instant Bedtime Lockdown activated",
+      "device": "All Devices",
+      "member": "Sarah Miller",
+      "time": "Just now",
+      "severity": "info",
+      "iconBg": "#EDF4EE",
+      "iconColor": "#39765C"
+    },
+    {
+      "id": "act_1794796295347",
+      "type": "resume_all",
+      "title": "Internet resumed for all family devices",
+      "device": "All Devices",
+      "member": "Sarah Miller",
+      "time": "Just now",
+      "severity": "success",
+      "iconBg": "#EDF3E8",
+      "iconColor": "#71874D"
+    },
+    {
+      "id": "act_1794796294882",
+      "type": "pause_all",
+      "title": "Internet paused for all family devices",
+      "device": "All Devices",
+      "member": "Sarah Miller",
+      "time": "Just now",
+      "severity": "alert",
+      "iconBg": "#F9ECE7",
+      "iconColor": "#BD725E"
+    },
+    {
+      "id": "act_1794796292457",
+      "type": "resume_all",
+      "title": "Internet resumed for all family devices",
+      "device": "All Devices",
+      "member": "Sarah Miller",
+      "time": "Just now",
+      "severity": "success",
+      "iconBg": "#EDF3E8",
+      "iconColor": "#71874D"
+    },
+    {
+      "id": "act_1794796291026",
+      "type": "pause_all",
+      "title": "Internet paused for all family devices",
+      "device": "All Devices",
+      "member": "Sarah Miller",
+      "time": "Just now",
+      "severity": "alert",
+      "iconBg": "#F9ECE7",
+      "iconColor": "#BD725E"
+    },
+    {
+      "id": "act_1794796172906",
+      "type": "resume_all",
+      "title": "Internet resumed for all family devices",
+      "device": "All Devices",
+      "member": "Sarah Miller",
+      "time": "Just now",
+      "severity": "success",
+      "iconBg": "#EDF3E8",
+      "iconColor": "#71874D"
+    },
+    {
+      "id": "act_1794796170647",
+      "type": "pause_all",
+      "title": "Internet paused for all family devices",
+      "device": "All Devices",
+      "member": "Sarah Miller",
+      "time": "Just now",
+      "severity": "alert",
+      "iconBg": "#F9ECE7",
+      "iconColor": "#BD725E"
+    },
+    {
+      "id": "act_1794796165767",
+      "type": "bonus_time",
+      "title": "+60m bonus time granted to Leo's iPad",
+      "device": "Leo's iPad",
+      "member": "Leo",
+      "time": "Just now",
+      "severity": "info",
+      "iconBg": "#EDF4EE",
+      "iconColor": "#39765C"
+    },
+    {
+      "id": "act_1794796164985",
+      "type": "bonus_time",
+      "title": "+15m bonus time granted to Leo's iPad",
+      "device": "Leo's iPad",
+      "member": "Leo",
+      "time": "Just now",
+      "severity": "info",
+      "iconBg": "#EDF4EE",
+      "iconColor": "#39765C"
+    },
+    {
+      "id": "act_1794796164481",
+      "type": "bonus_time",
+      "title": "+30m bonus time granted to Leo's iPad",
+      "device": "Leo's iPad",
+      "member": "Leo",
+      "time": "Just now",
+      "severity": "info",
+      "iconBg": "#EDF4EE",
+      "iconColor": "#39765C"
+    },
+    {
+      "id": "act_1",
+      "type": "limit_reached",
+      "title": "YouTube Kids time limit reached",
+      "device": "Leo's iPad",
+      "member": "Leo",
+      "time": "12m ago",
+      "severity": "warning",
+      "iconBg": "#F9ECE7",
+      "iconColor": "#BD725E"
+    },
+    {
+      "id": "act_2",
+      "type": "geofence",
+      "title": "Safe Arrival: Arrived at Lincoln Middle School",
+      "device": "Maya's iPhone",
+      "member": "Maya",
+      "time": "1h ago",
+      "severity": "success",
+      "iconBg": "#EDF3E8",
+      "iconColor": "#71874D"
+    },
+    {
+      "id": "act_3",
+      "type": "content_blocked",
+      "title": "Restricted category access blocked (Unsafe Gaming Site)",
+      "device": "Lucas's MacBook",
+      "member": "Lucas",
+      "time": "3h ago",
+      "severity": "alert",
+      "iconBg": "#F6F2DF",
+      "iconColor": "#AA8345"
+    },
+    {
+      "id": "act_4",
+      "type": "paired",
+      "title": "Phone companion app paired successfully",
+      "device": "Maya's iPhone",
+      "member": "Maya",
+      "time": "Yesterday at 6:40 PM",
+      "severity": "info",
+      "iconBg": "#EDF4EE",
+      "iconColor": "#39765C"
+    }
+  ],
+  "contentRules": {
+    "categories": [
+      {
+        "id": "cat_adult",
+        "name": "Adult & Explicit Content",
+        "blocked": true,
+        "strict": true
+      },
+      {
+        "id": "cat_gambling",
+        "name": "Gambling & Betting",
+        "blocked": true,
+        "strict": true
+      },
+      {
+        "id": "cat_violence",
+        "name": "Violence & Graphic Material",
+        "blocked": true,
+        "strict": true
+      },
+      {
+        "id": "cat_social",
+        "name": "Social Networks (Under 13)",
+        "blocked": true,
+        "strict": false
+      },
+      {
+        "id": "cat_gaming",
+        "name": "Online Gaming Hubs",
+        "blocked": false,
+        "strict": false
+      },
+      {
+        "id": "cat_shopping",
+        "name": "In-App Purchases & Stores",
+        "blocked": true,
+        "strict": false
+      }
+    ],
+    "blockedWebsites": [
+      "tiktok.com",
+      "discord.com/login",
+      "omegle.com",
+      "roblox.com/purchase"
+    ],
+    "allowedWebsites": [
+      "wikipedia.org",
+      "khanacademy.org",
+      "duolingo.com",
+      "classroom.google.com"
+    ]
+  },
+  "subscription": {
+    "currentPlan": "Kinly Family Plus",
+    "billingCycle": "Monthly",
+    "amount": 9.99,
+    "currency": "USD",
+    "status": "Active",
+    "renewalDate": "2026-12-15",
+    "paymentMethod": {
+      "brand": "Visa",
+      "last4": "4242",
+      "expiry": "08/28"
+    },
+    "features": [
+      "Unlimited Child & Family Devices",
+      "Real-time Phone Companion Sync",
+      "AI Smart Content & Web Filter",
+      "Instant Pause Internet & Bedtime Routine",
+      "GPS Safe Zones & Geo-fencing Alerts",
+      "Priority 24/7 Family Safety Support"
+    ]
+  },
+  "orders": [
+    {
+      "id": "ORD-2026-8812",
+      "date": "2026-11-15",
+      "plan": "Kinly Family Plus (Monthly)",
+      "amount": 9.99,
+      "status": "Paid",
+      "paymentMethod": "Visa **** 4242",
+      "invoiceNumber": "INV-2026-1049"
+    },
+    {
+      "id": "ORD-2026-7241",
+      "date": "2026-10-15",
+      "plan": "Kinly Family Plus (Monthly)",
+      "amount": 9.99,
+      "status": "Paid",
+      "paymentMethod": "Visa **** 4242",
+      "invoiceNumber": "INV-2026-0921"
+    }
+  ],
+  "pairingSessions": [
+    {
+      "code": "KIN-7842",
+      "deviceId": "dev_2",
+      "qrCodeUrl": "https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=kinly://pair?code=KIN-7842&device=MayaPhone",
+      "expiresAt": "2026-11-16T18:00:00Z"
+    }
+  ]
+}
